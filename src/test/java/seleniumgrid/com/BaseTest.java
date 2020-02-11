@@ -32,7 +32,7 @@ public class BaseTest {
         capabilities.setCapability(ChromeOptions.CAPABILITY, options);*/
 
 
-        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilities);
+        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub1"),capabilities);
     }
 
 

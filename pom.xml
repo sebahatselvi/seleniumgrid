@@ -7,6 +7,7 @@
     <groupId>selenium-grid-test-automation</groupId>
     <artifactId>seleniumgrid</artifactId>
     <version>1.0-SNAPSHOT</version>
+         <!-- deneme-->
     <dependencies>
 
         <dependency>

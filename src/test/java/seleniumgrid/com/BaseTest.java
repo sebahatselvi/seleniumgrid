@@ -26,13 +26,13 @@ public class BaseTest {
         capabilities.setCapability("marionette",true);
 
 
-        ChromeOptions options = new ChromeOptions();
+      /*  ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized");
         capabilities = DesiredCapabilities.chrome();
-        capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+        capabilities.setCapability(ChromeOptions.CAPABILITY, options);*/
 
 
-        driver = new RemoteWebDriver(new URL("http://192.168.60.117:4444/wd/hub"),capabilities);
+        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilities);
     }
 
 
